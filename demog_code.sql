@@ -12,6 +12,7 @@ DESCRIBE world.demog;
 
 -- Secondary Data
 -- 3 Secondary data is created: %land; %water & density for each country
+DROP Table if exists world.demog01;
 CREATE TABLE world.demog01
 (
 SELECT *,
